@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Permutation",
+            "request": "launch",
+            "mainClass": "Permutation",
+            "projectName": "week2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomizedQueue",
+            "request": "launch",
+            "mainClass": "RandomizedQueue",
+            "projectName": "week2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Deque",
             "request": "launch",
             "mainClass": "Deque",

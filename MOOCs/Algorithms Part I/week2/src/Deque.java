@@ -121,15 +121,13 @@ public class Deque<Item> implements Iterable<Item> {
         d.addFirst(1);
         d.addFirst(2);
         d.addFirst(3);
-        d.removeLast();
-        d.removeLast();
-        d.removeLast();
-        d.addLast(4);
-        d.addLast(5);
-        d.addLast(6);
-        System.out.println(d.removeFirst());
-        System.out.println(d.removeFirst());
-        System.out.println(d.removeFirst());
+        for (Integer var1 : d) {
+            for (Integer var2 : d) {
+                System.out.print(var1);
+                System.out.print(var2);
+                System.out.println();
+            }
+        }
 
     }
 }
