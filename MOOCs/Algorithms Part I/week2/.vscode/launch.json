@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Deque",
+            "request": "launch",
+            "mainClass": "Deque",
+            "projectName": "week2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestAlgs4",
             "request": "launch",
             "mainClass": "TestAlgs4",
