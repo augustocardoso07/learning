@@ -185,4 +185,6 @@ public class DequeTest {
 
     }
 
+    // TODO: Learn some way to test loitering
+
 }

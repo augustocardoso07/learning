@@ -64,7 +64,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // remove and return a random item
     public Item dequeue() {
-        if (isEmpty()) throw new java.util.NoSuchElementException();
+        if (isEmpty()) throw new NoSuchElementException();
         Item item = a[n - 1];
         a[n - 1] = null;
         n--;
@@ -75,7 +75,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // return a random item (but do not remove it)
     public Item sample() {
-        if (isEmpty()) throw new java.util.NoSuchElementException();
+        if (isEmpty()) throw new NoSuchElementException();
         return a[StdRandom.uniform(n)];
     }
 
@@ -87,7 +87,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     // an iterator, doesn't implement remove() since it's optional
     private class ArrayIterator implements Iterator<Item> {
         private int i;
-        private Item[] arr;
+        private final Item[] arr;
 
         public ArrayIterator() {
             i = 0;
