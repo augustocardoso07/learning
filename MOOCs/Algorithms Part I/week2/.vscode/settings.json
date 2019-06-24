@@ -1,3 +1,3 @@
 {
-    "java.checkstyle.configuration": "/home/renan/Área de Trabalho/learning/MOOCs/Algorithms Part I/week2/checkstyle-coursera.xml"
+    "java.checkstyle.configuration": "${workspaceFolder}/checkstyle-coursera.xml"
 }

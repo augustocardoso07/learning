@@ -4,20 +4,20 @@ import edu.princeton.cs.algs4.StdRandom;
 
 public class Permutation {
     public static void main(String[] args) {
-        int k = 1; // number of particles (default 20)
+        int k = 0; 
         if (args.length == 1) {
             k = Integer.parseInt(args[0]);
         }
 
         RandomizedQueue<String> q = new RandomizedQueue<String>();
 
-        int n = 0;
-        while (StdIn.isEmpty()) {
+        double i = 0;
+        while (!StdIn.isEmpty() && k != 0) {
             String word = StdIn.readString();
-            n++;
             if (q.size() == k) {
-                Double p = StdRandom.uniform();
-                if (p > 1/n) {
+                i++;
+                double p = StdRandom.uniform();
+                if (p <= k/(k + i)) {
                     q.dequeue();
                     q.enqueue(word);
                 }
@@ -27,8 +27,8 @@ public class Permutation {
 
         }
 
-        for (int i = 0; i < k; i++) {
-            StdOut.println(q.dequeue());
+        for (String var : q) {
+            StdOut.println(var);
         }
     }
  }

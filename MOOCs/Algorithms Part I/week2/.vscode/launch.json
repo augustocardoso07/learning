@@ -5,7 +5,9 @@
             "name": "CodeLens (Launch) - Permutation",
             "request": "launch",
             "mainClass": "Permutation",
-            "projectName": "week2"
+            "projectName": "week2",
+            "console": "externalTerminal",
+            "args": "1",
         },
         {
             "type": "java",
