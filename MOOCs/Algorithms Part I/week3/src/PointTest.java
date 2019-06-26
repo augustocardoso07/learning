@@ -3,8 +3,6 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import edu.princeton.cs.algs4.StdOut;
-
 public class PointTest {
 
     @Test
@@ -33,10 +31,6 @@ public class PointTest {
         assertEquals("(5, 1)", points[3].toString());
 
         Arrays.sort(points, a.slopeOrder());
-
-        for (Point p : points) {
-            StdOut.println(p);
-        }
 
         assertEquals("(5, 1)", points[0].toString());
         assertEquals("(3, 1)", points[1].toString());
@@ -67,10 +61,6 @@ public class PointTest {
         assertEquals("(5, 1)", points[4].toString());
 
         Arrays.sort(points, a.slopeOrder());
-
-        for (Point p : points) {
-            StdOut.println(p);
-        }
 
         assertEquals("(0, 0)", points[0].toString());
         assertEquals("(5, 1)", points[1].toString());
