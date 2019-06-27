@@ -4,20 +4,25 @@ import java.util.ArrayList;
 
 public class FastCollinearPoints {
     private int nOfSegments;
-    private final ArrayList<LineSegment> segments;
+    private ArrayList<LineSegment> segments;
+    private ArrayList<Double> segmentsSlopes;
     // finds all line segments containing 4 points
     public FastCollinearPoints(Point[] points) {
-        if (invalide(points)) throw new java.lang.IllegalArgumentException();
+        if (invalid(points)) throw new java.lang.IllegalArgumentException();
         nOfSegments = 0;
         segments = new ArrayList<>();
+        segmentsSlopes = new ArrayList<>();
         int n = points.length;
 
+        Arrays.sort(points);
         for (Point p : points) {
             Point[] reordedPoins = Arrays.copyOf(points, n);
             Arrays.sort(reordedPoins);
             Arrays.sort(reordedPoins, p.slopeOrder());
             checkSlope(reordedPoins);
         }
+
+
     }
 
     private void checkSlope(Point[] reordedPoins) {
@@ -34,18 +39,24 @@ public class FastCollinearPoints {
                 if (i < reordedPoins.length) s = reordedPoins[i];
                 findCollinear = true;
             }
-            if (findCollinear && last != null) {
-                segments.add(new LineSegment(reordedPoins[0], last));
+
+            if (findCollinear) {
                 findCollinear = false;
+                if (!segmentsSlopes.contains(p.slopeTo(last))) {
+                    segments.add(new LineSegment(p, last));
+                    segmentsSlopes.add(p.slopeTo(last));
+                } 
             }
         }
+
+
     }
 
     private boolean isCollinear(Point p, Point q, Point r, Point s) {
         return p.slopeTo(q) == q.slopeTo(r) && p.slopeTo(r) == r.slopeTo(s);
     }
 
-    private boolean invalide(Point[] points) {
+    private boolean invalid(Point[] points) {
         if (points == null) return true;
         int n = points.length;
         for (int i = 0; i <= n - 2; i++) {

@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class FastClient {
     public static void main(String[] args) {
-        String file = "input\\input8.txt";
+        String file = "input/vertical100.txt";
         if (args.length > 0) file = args[0];
         In in = new In(file);
         int n = in.readInt();
