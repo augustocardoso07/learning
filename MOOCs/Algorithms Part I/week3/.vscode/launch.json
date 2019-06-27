@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FastClient",
+            "request": "launch",
+            "mainClass": "FastClient",
+            "projectName": "week3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ForTest",
+            "request": "launch",
+            "mainClass": "ForTest",
+            "projectName": "week3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BruteClient",
+            "request": "launch",
+            "mainClass": "BruteClient",
+            "projectName": "week3"
+        }
+    ]
+}
