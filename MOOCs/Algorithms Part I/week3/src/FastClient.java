@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class FastClient {
     public static void main(String[] args) {
-        String file = "input/input8.txt";
+        String file = "input/grid4x4.txt";
         if (args.length > 0) file = args[0];
         In in = new In(file);
         int n = in.readInt();
@@ -37,12 +37,13 @@ public class FastClient {
             StdOut.println(segment);
             segment.draw();
             StdDraw.show();
-            StdDraw.pause(2000);
+            //StdDraw.pause(2000);
             StdDraw.setPenColor(red % 255, green % 255, blue % 255);
             red += 170;
             green += 31;
             blue += 41;
         }
+        StdOut.println("Fim dos segmentos: " + collinear.numberOfSegments());
         
     }
 }

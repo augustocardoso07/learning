@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class BruteClient {
     public static void main(String[] args) {
-        String file = "input/input1000.txt";
+        String file = "input/grid4x4.txt";
         if (args.length > 0) file = args[0];
         In in = new In(file);
         int n = in.readInt();

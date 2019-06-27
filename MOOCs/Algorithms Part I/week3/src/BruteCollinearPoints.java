@@ -15,13 +15,13 @@ public class BruteCollinearPoints {
             for (int j = i + 1; j <= n - 3; j++) {
                 for (int k = j + 1; k <= n - 2; k++) {
                     if (isCollinear(points[i], points[j], points[k])) {
-                        for (int l = k + 1; l <= n - 1; l++) {
-                            if (isCollinear(points[i], points[j], points[l])) {
-                                Point[] collinearPoints = {points[i], points[j], points[k], points[l]};
+                        for (int m = k + 1; m <= n - 1; m++) {
+                            if (isCollinear(points[i], points[j], points[m])) {
+                                Point[] collinearPoints = {points[i], points[j], points[k], points[m]};
                                 Arrays.sort(collinearPoints);
-                                Point mim = collinearPoints[0];
-                                Point max = collinearPoints[3];
-                                LineSegment line = new LineSegment(mim, max);
+                                Point start = collinearPoints[0];
+                                Point end = collinearPoints[3];
+                                LineSegment line = new LineSegment(start, end);
                                 count++;
                                 segments.add(line);
                             }
