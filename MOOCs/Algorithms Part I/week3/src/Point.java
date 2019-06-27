@@ -60,8 +60,8 @@ public class Point implements Comparable<Point> {
      */
     public double slopeTo(Point that) {
         if (this.x == that.x && this.y == that.y) return Double.NEGATIVE_INFINITY;
-        if (this.x == that.x) return +0.0;
-        if (this.y == that.y) return Double.POSITIVE_INFINITY;
+        if (this.x == that.x) return Double.POSITIVE_INFINITY;
+        if (this.y == that.y) return +0.0;
         Double x = (double) this.x;
         Double y = (double) this.y;
         Double x1 = (double) that.x;
@@ -131,6 +131,8 @@ public class Point implements Comparable<Point> {
      * Unit tests the Point data type.
      */
     public static void main(String[] args) {
-        /* YOUR CODE HERE */
+        Point p = new Point(1, 0);
+        Point q = new Point(1, 0);
+        System.out.println(p.compareTo(q) == 0);
     }
 }

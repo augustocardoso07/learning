@@ -59,11 +59,12 @@ public class FastCollinearPoints {
     private boolean invalid(Point[] points) {
         if (points == null) return true;
         int n = points.length;
+        if (points[0] == null) return true;
         for (int i = 0; i <= n - 2; i++) {
             if (points[i] == null) return true;
             for (int j = i + 1; j <= n - 1; j++) {
                 if (points[j] == null) return true;
-                if (points[i] == points[j]) return true;
+                if (points[i].compareTo(points[j]) == 0) return true;
             }
         }
         return false;
