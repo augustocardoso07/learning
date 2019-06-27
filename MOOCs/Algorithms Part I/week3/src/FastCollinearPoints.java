@@ -1,17 +1,18 @@
 import java.util.Arrays;
+
+import edu.princeton.cs.algs4.StdDraw;
+
 import java.util.ArrayList;
 
 
 public class FastCollinearPoints {
-    private int nOfSegments;
-    private ArrayList<LineSegment> segments;
-    private ArrayList<Double> segmentsSlopes;
+    private final int nOfSegments;
+    private final ArrayList<LineSegment> segments;
     // finds all line segments containing 4 points
     public FastCollinearPoints(Point[] points) {
         if (invalid(points)) throw new java.lang.IllegalArgumentException();
         nOfSegments = 0;
         segments = new ArrayList<>();
-        segmentsSlopes = new ArrayList<>();
         int n = points.length;
 
         Arrays.sort(points);
@@ -21,18 +22,17 @@ public class FastCollinearPoints {
             Arrays.sort(reordedPoins, p.slopeOrder());
             checkSlope(reordedPoins);
         }
-
-
     }
 
     private void checkSlope(Point[] reordedPoins) {
-        boolean findCollinear = false;
+        boolean findCollinear;
         Point p = reordedPoins[0];
         for (int i = 3; i < reordedPoins.length; i++) {
             Point q = reordedPoins[i - 2];
             Point r = reordedPoins[i - 1];
             Point s = reordedPoins[i];
             Point last = null;
+            findCollinear = false;
             while (isCollinear(p, q, r, s) && i < reordedPoins.length) {
                 last = s;
                 i++;
@@ -41,10 +41,13 @@ public class FastCollinearPoints {
             }
 
             if (findCollinear) {
-                findCollinear = false;
-                if (!segmentsSlopes.contains(p.slopeTo(last))) {
-                    segments.add(new LineSegment(p, last));
-                    segmentsSlopes.add(p.slopeTo(last));
+                LineSegment line = new LineSegment(p, last);
+                LineSegment reverseLine = new LineSegment(last, p);
+                if (!segments.contains(line) && !segments.contains(reverseLine)) {
+                    int test = 0;
+                    segments.add(line);
+                    line.draw();
+                    StdDraw.show();
                 } 
             }
         }

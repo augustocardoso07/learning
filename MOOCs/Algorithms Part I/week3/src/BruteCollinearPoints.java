@@ -3,12 +3,12 @@ import java.util.ArrayList;
 
 
 public class BruteCollinearPoints {
-    private int nOfSegments;
+    private final int nOfSegments;
     private final ArrayList<LineSegment> segments;
     // finds all line segments containing 4 points
     public BruteCollinearPoints(Point[] points) {
         if (invalide(points)) throw new java.lang.IllegalArgumentException();
-        nOfSegments = 0;
+        int count = 0;
         segments = new ArrayList<>();
         int n = points.length;
         for (int i = 0; i <= n - 4; i++) {
@@ -22,7 +22,7 @@ public class BruteCollinearPoints {
                                 Point mim = collinearPoints[0];
                                 Point max = collinearPoints[3];
                                 LineSegment line = new LineSegment(mim, max);
-                                nOfSegments++;
+                                count++;
                                 segments.add(line);
                             }
                         }
@@ -30,6 +30,7 @@ public class BruteCollinearPoints {
                 }
             }
         }
+        nOfSegments = count;
     }
 
     private boolean isCollinear(Point p, Point q, Point r) {
