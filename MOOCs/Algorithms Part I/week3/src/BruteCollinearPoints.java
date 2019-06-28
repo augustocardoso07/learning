@@ -7,7 +7,7 @@ public class BruteCollinearPoints {
     private final ArrayList<LineSegment> segments;
     // finds all line segments containing 4 points
     public BruteCollinearPoints(Point[] points) {
-        if (invalide(points)) throw new java.lang.IllegalArgumentException();
+        if (invalide(points)) throw new IllegalArgumentException();
         int count = 0;
         segments = new ArrayList<>();
         int n = points.length;
