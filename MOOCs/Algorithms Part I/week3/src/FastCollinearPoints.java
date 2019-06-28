@@ -10,7 +10,6 @@ public class FastCollinearPoints {
         if (invalid(points)) throw new IllegalArgumentException();
         segments = new ArrayList<>();
         
-        Arrays.sort(points);
         Point[] reordedPoins = Arrays.copyOf(points, points.length);
         for (Point p : points) {
             Arrays.sort(reordedPoins);
@@ -33,7 +32,7 @@ public class FastCollinearPoints {
             last = null;
             while (isCollinear(p, q, r, s) && i < reordedPoins.length) {
                 last = s;
-                i += 1;
+                i++;
                 if (i < reordedPoins.length) s = reordedPoins[i];
                 findCollinear = true;
             }
