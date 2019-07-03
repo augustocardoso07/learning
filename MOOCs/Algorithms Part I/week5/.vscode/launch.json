@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KdTree",
+            "request": "launch",
+            "mainClass": "KdTree",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RangeSearchVisualizer",
+            "request": "launch",
+            "mainClass": "RangeSearchVisualizer",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointSET",
+            "request": "launch",
+            "mainClass": "PointSET",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ola",
+            "request": "launch",
+            "mainClass": "Ola",
+            "projectName": "week5"
+        }
+    ]
+}
