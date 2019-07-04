@@ -7,7 +7,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class PointSET {
 
-    SET<Point2D> set;
+    private SET<Point2D> set;
     // construct an empty set of points 
     public PointSET() {
         //set = new SET<Point2D>();

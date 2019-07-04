@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.RectHV;
 import edu.princeton.cs.algs4.StdDraw;
@@ -196,17 +195,17 @@ public class KdTree {
         StdOut.println(set.contains(new Point2D(0.4, 0.4)));
         StdOut.println(set.contains(new Point2D(0.5, 0.5)));
 
-        String filename = "input/input10K.txt";
-        if (args.length > 0) filename = args[0];
-        In in = new In(filename);
-        KdTree kdtree = new KdTree();
-        while (!in.isEmpty()) {
-            double x = in.readDouble();
-            double y = in.readDouble();
-            Point2D p = new Point2D(x, y);
-            kdtree.insert(p);
-        }
-        kdtree.draw();
+        // String filename = "input/input10K.txt";
+        // if (args.length > 0) filename = args[0];
+        // In in = new In(filename);
+        // KdTree kdtree = new KdTree();
+        // while (!in.isEmpty()) {
+        //     double x = in.readDouble();
+        //     double y = in.readDouble();
+        //     Point2D p = new Point2D(x, y);
+        //     kdtree.insert(p);
+        // }
+        // kdtree.draw();
 
         Point2D p = new Point2D(0.2, 0.2);
         StdOut.println(set.root.p.distanceSquaredTo(p));
