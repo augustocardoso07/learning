@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NearestNeighborVisualizer",
+            "request": "launch",
+            "mainClass": "NearestNeighborVisualizer",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - KdTreeVisualizer",
+            "request": "launch",
+            "mainClass": "KdTreeVisualizer",
+            "projectName": "week5"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KdTree",
             "request": "launch",
             "mainClass": "KdTree",
