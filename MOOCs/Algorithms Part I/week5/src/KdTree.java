@@ -83,7 +83,11 @@ public class KdTree {
             } else if (p.x() > node.p.x()) {
                 return get(node.rt, p, !division);
             } else {
-                return p.y() == node.p.y();
+                if (p.y() == node.p.y()) {
+                    return true;
+                } else {
+                    return get(node.rt, p, !division);
+                }
             }
         } else {
             if (p.y() < node.p.y()) {
@@ -91,7 +95,11 @@ public class KdTree {
             } else if (p.y() > node.p.y()) {
                 return get(node.rt, p, !division);
             } else {
-                return p.x() == node.p.x();
+                if (p.x() == node.p.x()) {
+                    return true;
+                } else {
+                    return get(node.rt, p, !division);
+                }
             }
         }
     }
@@ -105,9 +113,9 @@ public class KdTree {
         if (node == null) return;
 
         StdDraw.setPenColor(StdDraw.BLACK);
-        StdDraw.setPenRadius(0.02);
+        // StdDraw.setPenRadius(0.02);
         node.p.draw();
-        StdDraw.pause(2000);
+        // StdDraw.pause(2000);
         if (division == VERTICAL) {
             StdDraw.setPenRadius();
             StdDraw.setPenColor(StdDraw.RED);
@@ -174,31 +182,42 @@ public class KdTree {
 
     // unit testing of the methods (optional) 
     public static void main(String[] args) {
-        Point2D a = new Point2D(0.75, 0.5);
-        Point2D b = new Point2D(1.0, 0.25);
-        Point2D c = new Point2D(0.75 ,0.75);
-        Point2D d = new Point2D(1.0, 1.0);
-        Point2D e = new Point2D(0.5, 0.0);
-        Point2D f = new Point2D(0.25, 0.0);
-        Point2D g = new Point2D(0.0 ,0.75);
-        Point2D h = new Point2D(0.25, 1.0);
-        Point2D i = new Point2D(0.5 ,0.75);
-        Point2D j = new Point2D(0.5, 0.5);
+        // Point2D a = new Point2D(0.75, 0.5);
+        // Point2D b = new Point2D(1.0, 0.25);
+        // Point2D c = new Point2D(0.75, 0.75);
+        // Point2D d = new Point2D(1.0, 1.0);
+        // Point2D e = new Point2D(0.5, 0.0);
+        // Point2D f = new Point2D(0.25, 0.0);
+        // Point2D g = new Point2D(0.0, 0.75);
+        // Point2D h = new Point2D(0.25, 1.0);
+        // Point2D i = new Point2D(0.5, 0.75);
+        // Point2D j = new Point2D(0.5, 0.5);
+
+        Point2D a1 = new Point2D(0.0, 0.75);
+        Point2D b1 = new Point2D(0.75, 1.0);
+        Point2D c1 = new Point2D(0.5, 1.0);
+        Point2D d1 = new Point2D(0.0, 0.5);
+        Point2D e1 = new Point2D(1.0, 0.5);
+        Point2D f1 = new Point2D(0.5, 0.25);
+        Point2D g1 = new Point2D(0.5, 0.75);
+        Point2D h1 = new Point2D(1.0, 0.25);
+        Point2D i1 = new Point2D(1.0, 0.75);
+        Point2D j1 = new Point2D(0.5, 0.0);
         
         KdTree set = new KdTree();
-        set.insert(a);
-        set.insert(b);
-        set.insert(c);
-        set.insert(d);
-        set.insert(e);
-        set.insert(f);
-        set.insert(g);
-        set.insert(h);
-        set.insert(i);
-        set.insert(j);
-        set.draw();
+        set.insert(a1);
+        set.insert(b1);
+        set.insert(c1);
+        set.insert(d1);
+        set.insert(e1);
+        set.insert(f1);
+        set.insert(g1);
+        set.insert(h1);
+        set.insert(i1);
+        set.insert(j1);
+        // set.draw();
         
-        StdOut.println(set.contains(j));
+        StdOut.println(set.contains(c1));
 
     }
 }
