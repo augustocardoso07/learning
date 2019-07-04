@@ -6,20 +6,20 @@ import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 
 public class KdTree {
+    private static final boolean VERTICAL = true;
     private int n;
     private Node root;
-    private static final boolean VERTICAL = true;
     private Point2D nearest;
 
     private static class Node {
-        private Point2D p;      // the point
-        private RectHV rect;    // the axis-aligned rectangle corresponding to this node
+        private final Point2D p;      // the point
+        private final RectHV rect;    // the axis-aligned rectangle corresponding to this node
         private Node lb;        // the left/bottom subtree
         private Node rt;        // the right/top subtree
 
         public Node(Point2D p, double a, double b, double c, double d) {
             this.rect = new RectHV(a, b, c, d);
-            this. p = p;
+            this.p = p;
         }
      }
     // construct an empty set of points 
@@ -103,6 +103,11 @@ public class KdTree {
 
     private void draw(Node node, boolean division) {
         if (node == null) return;
+
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.setPenRadius(0.02);
+        node.p.draw();
+        StdDraw.pause(2000);
         if (division == VERTICAL) {
             StdDraw.setPenRadius();
             StdDraw.setPenColor(StdDraw.RED);
@@ -116,9 +121,6 @@ public class KdTree {
             draw(node.lb, !division);
             draw(node.rt, !division);
         }
-        StdDraw.setPenColor(StdDraw.BLACK);
-        StdDraw.setPenRadius(0.02);
-        node.p.draw();
     }
 
     // all points that are inside the rectangle (or on the boundary) 
@@ -172,43 +174,31 @@ public class KdTree {
 
     // unit testing of the methods (optional) 
     public static void main(String[] args) {
-        RectHV r = new RectHV(0, 0, 1, 1);
-        StdOut.println(r);
+        Point2D a = new Point2D(0.75, 0.5);
+        Point2D b = new Point2D(1.0, 0.25);
+        Point2D c = new Point2D(0.75 ,0.75);
+        Point2D d = new Point2D(1.0, 1.0);
+        Point2D e = new Point2D(0.5, 0.0);
+        Point2D f = new Point2D(0.25, 0.0);
+        Point2D g = new Point2D(0.0 ,0.75);
+        Point2D h = new Point2D(0.25, 1.0);
+        Point2D i = new Point2D(0.5 ,0.75);
+        Point2D j = new Point2D(0.5, 0.5);
+        
         KdTree set = new KdTree();
-        set.insert(new Point2D(0.7, 0.2));
-        set.insert(new Point2D(0.5, 0.4));
-        set.insert(new Point2D(0.2, 0.3));
-        set.insert(new Point2D(0.4, 0.7));
-        set.insert(new Point2D(0.9, 0.6));
+        set.insert(a);
+        set.insert(b);
+        set.insert(c);
+        set.insert(d);
+        set.insert(e);
+        set.insert(f);
+        set.insert(g);
+        set.insert(h);
+        set.insert(i);
+        set.insert(j);
+        set.draw();
         
-        StdOut.println(set.contains(new Point2D(0.7, 0.2)));
-        StdOut.println(set.contains(new Point2D(0.5, 0.4)));
-        StdOut.println(set.contains(new Point2D(0.2, 0.3)));
-        StdOut.println(set.contains(new Point2D(0.4, 0.7)));
-        StdOut.println(set.contains(new Point2D(0.9, 0.6)));
-        
-        StdOut.println(set.size());
-        StdOut.println("================================");
-        StdOut.println(set.contains(new Point2D(0.1, 0.1)));
-        StdOut.println(set.contains(new Point2D(0.2, 0.2)));
-        StdOut.println(set.contains(new Point2D(0.3, 0.3)));
-        StdOut.println(set.contains(new Point2D(0.4, 0.4)));
-        StdOut.println(set.contains(new Point2D(0.5, 0.5)));
+        StdOut.println(set.contains(j));
 
-        // String filename = "input/input10K.txt";
-        // if (args.length > 0) filename = args[0];
-        // In in = new In(filename);
-        // KdTree kdtree = new KdTree();
-        // while (!in.isEmpty()) {
-        //     double x = in.readDouble();
-        //     double y = in.readDouble();
-        //     Point2D p = new Point2D(x, y);
-        //     kdtree.insert(p);
-        // }
-        // kdtree.draw();
-
-        Point2D p = new Point2D(0.2, 0.2);
-        StdOut.println(set.root.p.distanceSquaredTo(p));
-        StdOut.println(set.root.rect.distanceSquaredTo(p));
     }
 }
