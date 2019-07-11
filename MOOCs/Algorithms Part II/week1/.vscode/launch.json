@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ola",
+            "request": "launch",
+            "mainClass": "Ola",
+            "projectName": "week1"
+        }
+    ]
+}
