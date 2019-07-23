@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcb6c32-5c86-48ca-a0ae-9946faae1520" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/neps/Aeroporto/aeroporte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Aeroporto/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Aeroporto/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Costa/costa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Costa/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Costa/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Toca do Saci/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Toca do Saci/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Toca do Saci/in3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Toca do Saci/toca.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Tá Ligado/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Tá Ligado/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neps/Tá Ligado/ligado.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1076 - Desenhado Labirintos/1076.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1076 - Desenhado Labirintos/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1692 - Curo Ataque +++/1692.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1692 - Curo Ataque +++/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/1905.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/generate_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in_1000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/out3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/out_1000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/2440.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/generate_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/2687.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/generate_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/out4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/out5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uva/10114 - Loansome Car Buyer/10114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uva/10114 - Loansome Car Buyer/in1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uva/11727 - Cost Cutting/11727.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uva/11727 - Cost Cutting/in1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Code Challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Code Challenges.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,52 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1907.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/1907.py">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spoj/PT07Y - Is it a tree/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/generate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="in1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="425">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="in2" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in2">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="in3" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in3">
+        <entry file="file://$PROJECT_DIR$/spoj/PT07Y - Is it a tree/in2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="in4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -125,40 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uri/1709 - Baralho Embaralhado/input4" />
-        <option value="$PROJECT_DIR$/uri/1709 - Baralho Embaralhado/1709.py" />
-        <option value="$PROJECT_DIR$/uri/1709 - Baralho Embaralhado/input3" />
-        <option value="$PROJECT_DIR$/uri/1704 - Arrumando as Tarefas/input1" />
-        <option value="$PROJECT_DIR$/uri/1704 - Arrumando as Tarefas/1704.py" />
-        <option value="$PROJECT_DIR$/uri/1704 - Arrumando as Tarefas/input2" />
-        <option value="$PROJECT_DIR$/uva/11727 - Cost Cutting/in1" />
-        <option value="$PROJECT_DIR$/uva/11727 - Cost Cutting/11727.py" />
-        <option value="$PROJECT_DIR$/uva/10114 - Loansome Car Buyer/in1" />
-        <option value="$PROJECT_DIR$/uva/10114 - Loansome Car Buyer/10114.py" />
-        <option value="$PROJECT_DIR$/neps/Aeroporto/in1" />
-        <option value="$PROJECT_DIR$/neps/Aeroporto/aeroporte.py" />
-        <option value="$PROJECT_DIR$/neps/Tá Ligado/in1" />
-        <option value="$PROJECT_DIR$/neps/Tá Ligado/in2" />
-        <option value="$PROJECT_DIR$/neps/Tá Ligado/ligado.py" />
-        <option value="$PROJECT_DIR$/neps/Costa/in2" />
-        <option value="$PROJECT_DIR$/neps/Costa/in1" />
-        <option value="$PROJECT_DIR$/neps/Costa/costa.py" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in1" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in3" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/generate_input.py" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in5" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in6.py" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in6" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in7" />
-        <option value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/2687.py" />
-        <option value="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in1" />
-        <option value="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in2" />
-        <option value="$PROJECT_DIR$/uri/2440 - Famílias de Troia/in3" />
-        <option value="$PROJECT_DIR$/uri/2440 - Famílias de Troia/generate_input.py" />
-        <option value="$PROJECT_DIR$/uri/2440 - Famílias de Troia/2440.py" />
-        <option value="$PROJECT_DIR$/neps/Toca do Saci/in1" />
-        <option value="$PROJECT_DIR$/neps/Toca do Saci/in2" />
-        <option value="$PROJECT_DIR$/neps/Toca do Saci/in3" />
         <option value="$PROJECT_DIR$/neps/Toca do Saci/toca.py" />
         <option value="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in1" />
         <option value="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in2" />
@@ -176,14 +64,48 @@
         <option value="$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos/in4" />
         <option value="$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos/1907.py" />
         <option value="$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos/generate.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Kefa and Park/in1" />
+        <option value="$PROJECT_DIR$/CodeForces/Kefa and Park/in2" />
+        <option value="$PROJECT_DIR$/CodeForces/Kefa and Park/kefa.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Kefa and Park/README.md" />
+        <option value="$PROJECT_DIR$/uri/1523 - Estacionamento Linear/in1" />
+        <option value="$PROJECT_DIR$/uri/1523 - Estacionamento Linear/1523.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in1" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in2" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in3" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in4" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in5" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in6" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in1_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in2_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in3_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in4_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in5_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/in6_expeted" />
+        <option value="$PROJECT_DIR$/CodeForces/Cthulhu/cthulhu.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Maze/in1" />
+        <option value="$PROJECT_DIR$/CodeForces/Maze/in2" />
+        <option value="$PROJECT_DIR$/CodeForces/Maze/in3" />
+        <option value="$PROJECT_DIR$/CodeForces/Maze/maze.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Keanu Reeves/keanu.py" />
+        <option value="$PROJECT_DIR$/CodeForces/Keanu Reeves/in1" />
+        <option value="$PROJECT_DIR$/CodeForces/Keanu Reeves/in2" />
+        <option value="$PROJECT_DIR$/CodeForces/Keanu Reeves/in3" />
+        <option value="$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in1" />
+        <option value="$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in2" />
+        <option value="$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in4" />
+        <option value="$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in3" />
+        <option value="$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/longest.py" />
+        <option value="$PROJECT_DIR$/spoj/PT07Y - Is it a tree/in2" />
+        <option value="$PROJECT_DIR$/spoj/PT07Y - Is it a tree/tree.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1856" />
-    <option name="y" value="221" />
-    <option name="width" value="2095" />
-    <option name="height" value="1100" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,12 +126,13 @@
             <path>
               <item name="Code Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="neps" type="462c0819:PsiDirectoryNode" />
+              <item name="spoj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Code Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code Challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="uri" type="462c0819:PsiDirectoryNode" />
+              <item name="spoj" type="462c0819:PsiDirectoryNode" />
+              <item name="PT07Y - Is it a tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,7 +141,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodeForces/Cthulhu/cthulhu.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,8 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1692">
-    <configuration name="1692" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tree">
+    <configuration name="cthulhu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code Challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,17 +165,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uri/1692 - Curo Ataque" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Cthulhu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri/1692 - Curo Ataque/1692.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Cthulhu/cthulhu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="1905" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code Challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,17 +183,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Maze" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/1905.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/Maze/maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="2687" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Code Challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,69 +201,77 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spoj/PT07Y - Is it a tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/2687.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spoj/PT07Y - Is it a tree/tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="costa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for cthulhu" type="tests" factoryName="py.test">
       <module name="Code Challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neps/Costa" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Cthulhu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neps/Costa/costa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/CodeForces/Cthulhu/cthulhu.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="toca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="py.test for cthulhu.testin1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Code Challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neps/Toca do Saci" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Cthulhu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neps/Toca do Saci/toca.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cthulhu.testin1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for cthulhu.testin6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Code Challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/Cthulhu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cthulhu.testin6&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.costa" />
-      <item itemvalue="Python.2687" />
-      <item itemvalue="Python.toca" />
-      <item itemvalue="Python.1905" />
-      <item itemvalue="Python.1692" />
+      <item itemvalue="Python tests.py.test for cthulhu" />
+      <item itemvalue="Python.cthulhu" />
+      <item itemvalue="Python tests.py.test for cthulhu.testin1" />
+      <item itemvalue="Python tests.py.test for cthulhu.testin6" />
+      <item itemvalue="Python.maze" />
+      <item itemvalue="Python.tree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1692" />
-        <item itemvalue="Python.1905" />
-        <item itemvalue="Python.toca" />
-        <item itemvalue="Python.2687" />
-        <item itemvalue="Python.costa" />
+        <item itemvalue="Python.tree" />
+        <item itemvalue="Python.maze" />
+        <item itemvalue="Python.cthulhu" />
+        <item itemvalue="Python tests.py.test for cthulhu.testin6" />
+        <item itemvalue="Python tests.py.test for cthulhu.testin1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="4" Folder0="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder1="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder2="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" Folder3="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master" CustomDictionaries="4" CustomDictionary0="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil.dic" CustomDictionary1="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Users\RenanCardoso\Downloads\IntelliJ.Portuguese.Brazil.Dictionary-master\portuguese-brazil_without-accents.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -353,6 +285,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_cthulhu_testin1 - 2019.07.22 at 18h 30m 13s.xml">
+      <configuration name="py.test for cthulhu.testin1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu_testin6 - 2019.07.22 at 18h 31m 54s.xml">
+      <configuration name="py.test for cthulhu.testin6" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 37m 08s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 37m 54s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 38m 09s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 39m 05s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 39m 33s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.22 at 18h 39m 50s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.23 at 10h 15m 29s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_cthulhu - 2019.07.23 at 10h 18m 19s.xml">
+      <configuration name="py.test for cthulhu" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -364,16 +328,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28138223" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28138223" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32795697" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3266129" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49947312" weight="0.32258064" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.37231183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2795699" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39919356" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -442,6 +405,21 @@
           <line>3</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CodeForces/Kefa and Park/kefa.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CodeForces/Maze/maze.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spoj/PT07Y - Is it a tree/tree.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -450,11 +428,26 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>m</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>total_de_gatos + gatos[u]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>gatos[u]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>area_externa</expression-string>
         <language-id>Python</language-id>
@@ -463,229 +456,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uva/10114 - Loansome Car Buyer/10114.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Aeroporto/out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Aeroporto/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Aeroporto/aeroporte.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Tá Ligado/ligado/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Tá Ligado/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Tá Ligado/in2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Tá Ligado/ligado.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" lean-forward="true" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Costa/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Costa/in2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Costa/costa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/out5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/generate_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/out4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="299" column="5" selection-end-line="401" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/in7">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2687 - Dominação Bacteriana/2687.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/in2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/in3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/in4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="802" column="7" lean-forward="true" selection-start-line="802" selection-start-column="7" selection-end-line="802" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Toca do Saci/in2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Toca do Saci/in3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neps/Toca do Saci/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/generate_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/in3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="116" selection-start-line="116" selection-end-line="120" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uri/1905 - Polícia e Ladrão/out3">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -749,22 +519,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/2440.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uri/1076 - Desenhado Labirintos/1076.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in2">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in3">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,7 +536,7 @@
     <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/in4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -797,14 +557,262 @@
     <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/generate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uri/1907 - Coloração de Cenários de Jogos +++/1907.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+        <state relative-caret-position="42">
+          <caret line="20" column="24" selection-start-line="20" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Kefa and Park/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Kefa and Park/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Kefa and Park/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" selection-start-column="9" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uri/1523 - Estacionamento Linear/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uri/1523 - Estacionamento Linear/1523.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in1_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in2_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in3_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in4_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in5_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/in6_expeted">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Maze/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Maze/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Cthulhu/cthulhu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Kefa and Park/kefa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uri/2440 - Famílias de Troia/2440.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Maze/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Maze/in3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Keanu Reeves/in3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Keanu Reeves/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Keanu Reeves/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeForces/Keanu Reeves/keanu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/in3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Z - Longest path in a tree/longest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Y - Is it a tree/in2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spoj/PT07Y - Is it a tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
