@@ -1,27 +1,24 @@
 def dfs(n, v, graph):
-    vizinhos = [(v, 0)]
-    visitados = [False] * n
-    ultimo = 0
-    max_distancia = 0
-    visitados[v] = True
+    stack = [v]
+    visited = [False] * n
+    visited[v] = True
 
-    while vizinhos:
-        v, distancia = vizinhos.pop()
-        if distancia > max_distancia: ultimo = v
+    while stack:
+        v = stack.pop()
 
         for u in graph[v]:
-            if not visitados[u]:
-                visitados[u] = True
-                vizinhos.append((u, distancia + 1))
+            if not visited[u]:
+                visited[u] = True
+                stack.append(u)
 
-    return sum(visitados) == n, ultimo
+    return sum(visited) == n
 
 
-def solve(n, inters, invert_inters):
-    connect, ultimo = dfs(n, 0, inters)
+def solve(n, nodes, inverted_nodes):
+    connect = dfs(n, 0, nodes)
     if not connect: return 0
 
-    connect, _ = dfs(n, ultimo, invert_inters)
+    connect = dfs(n, 0, inverted_nodes)
     return int(connect)
 
 
@@ -29,17 +26,18 @@ def main():
     while True:
         n, m = [int(x) for x in input().split()]
         if n == 0 or m == 0: break
-        inters = [[] for _ in range(n)]
-        invert_inters = [[] for _ in range(n)]
-        for _ in range(m):
-            v, w, p = [int(x) - 1 for x in input().split()]
-            inters[v].append(w)
-            invert_inters[w].append(v)
-            if p == 1:
-                inters[w].append(v)
-                invert_inters[v].append(w)
 
-        result = solve(n, inters, invert_inters)
+        nodes = [[] for _ in range(n)]
+        inverted_nodes = [[] for _ in range(n)]
+        for _ in range(m):
+            v, u, p = [int(x) - 1 for x in input().split()]
+            nodes[v].append(u)
+            inverted_nodes[u].append(v)
+            if p == 1:
+                nodes[u].append(v)
+                inverted_nodes[v].append(u)
+
+        result = solve(n, nodes, inverted_nodes)
         print(result)
 
 
