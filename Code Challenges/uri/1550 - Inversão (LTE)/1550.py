@@ -1,12 +1,12 @@
 from queue import Queue
 from datetime import datetime
 
+
 def bfs(a, b):
     result = 0
     q = Queue()
-    s = set()
+    s = {a}
     q.put((a, 0))
-
 
     while a != b:
         a, result = q.get()
