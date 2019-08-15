@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 from queue import PriorityQueue
 
 
@@ -22,6 +25,7 @@ def dijkstra(cidades, c):
 
     while not pq.empty():
         custo_atual, cidade_atual = pq.get()
+        if visitados[cidade_atual]: continue
         visitados[cidade_atual] = True
 
         for custo_vizinho, cidade_vizinha in cidades[cidade_atual]:
@@ -30,8 +34,7 @@ def dijkstra(cidades, c):
                 pq.put((novocusto, cidade_vizinha))
                 custos[cidade_vizinha] = novocusto
 
-    result = custos[c - 1] if custos[c - 1] != float("inf") else -1
-    return result
+    return -1 if custos[c-1] == float("inf") else custos[c-1]
 
 
 def main():
@@ -43,9 +46,9 @@ def main():
         cidades[v].append((g + 1, u))
         cidades[u].append((g + 1, v))
 
-    novascidades = somentepares(cidades, c)
+    ncidades = somentepares(cidades, c)
 
-    print(dijkstra(novascidades, c))
+    print(dijkstra(ncidades, c))
 
 
 if __name__ == '__main__':
@@ -67,8 +70,19 @@ def test_all(capsys):
         main()
         out, err = capsys.readouterr()
         exepeted = open(pathout).read()
-        assert out == exepeted
+        assert exepeted == out
         with capsys.disabled():
             print("\nTeste {} ===>: {} = {}".format(i, ins[i], outs[i]))
 
     sys.stdin = sys.__stdin__
+
+
+def test_time(capsys):
+    import sys
+    pathin = "teste1"
+    pathout = "saidateste1"
+    sys.stdin = open(pathin)
+    main()
+    out, err = capsys.readouterr()
+    exepeted = open(pathout).read()
+    assert exepeted == out
