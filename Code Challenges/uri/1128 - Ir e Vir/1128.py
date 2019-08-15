@@ -1,15 +1,17 @@
 def dfs(n, v, graph):
-    stack, visited = [v], set([v])
+    stack = [v]
+    visited = [False] * n
+    visited[v] = True
 
     while stack:
         v = stack.pop()
 
         for u in graph[v]:
-            if u not in visited:
-                visited.add(u)
+            if not visited[u]:
+                visited[u] = True
                 stack.append(u)
 
-    return len(visited) == n
+    return sum(visited) == n
 
 
 def solve(n, nodes, inverted_nodes):
