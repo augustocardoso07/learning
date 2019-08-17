@@ -8,7 +8,6 @@ def somentepares(cidades, c):
         for custo1, vizinho in cidades[cidade]:
             for custo2, final in cidades[vizinho]:
                 nova[cidade].append((custo1 + custo2, final))
-                nova[final].append((custo1 + custo2, cidade))
     return nova
 
 
@@ -22,6 +21,8 @@ def dijkstra(cidades, c):
 
     while not pq.empty():
         custo_atual, cidade_atual = pq.get()
+        if visitados[cidade_atual]: continue
+
         visitados[cidade_atual] = True
 
         for custo_vizinho, cidade_vizinha in cidades[cidade_atual]:
