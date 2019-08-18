@@ -1,0 +1,2 @@
+[How to detect cycles in a directed graph using the iterative version of DFS?
+](https://stackoverflow.com/questions/46506077/how-to-detect-cycles-in-a-directed-graph-using-the-iterative-version-of-dfs)

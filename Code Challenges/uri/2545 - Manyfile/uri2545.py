@@ -1,49 +1,35 @@
+ENTER = 1
+EXIT = 0
+
+
 def dfs(files, v, n):
     visited = [False] * n
     visited[v] = True
-    stack = [(v, 1)]
+    stack = [(v, 1, ENTER)]
+    status = [False] * n
 
     m = 0
     while stack:
-        v, size = stack.pop()
+        v, size, action = stack.pop()
         if size > m: m = size
 
-        for u in files[v]:
-            if not visited[u]:
-                stack.append((u, size + 1))
-                visited[u] = True
-    return m
-
-
-def dfsr_util(files, v, visited, status, nivel):
-    if visited[v]: return
-    visited[v] = True
-    status[v] = True
-    m = 0
-    for u in files[v]:
-        if not visited[u]:
-            m = dfsr_util(files, u, visited, status, nivel + 1)
+        if action == EXIT:
+            status[v] = False
         else:
-            if status[u]:
-                raise ConnectionError
-
-    status[v] = False
-    return max(m, nivel)
-
-
-def dfsr(files, v, n):
-    visited = [False] * n
-    status = [False] * n
-    try:
-        return dfsr_util(files, v, visited, status, 1)
-    except ConnectionError:
-        return -1
+            status[v] = True
+            stack.append((v, size, EXIT))
+            for u in files[v]:
+                if not visited[u]:
+                    stack.append((u, size + 1, ENTER))
+                    visited[u] = True
+                elif status[u]: return -1
+    return m
 
 
 def solve(files, n):
     total = 0
     for v in range(n):
-        m = dfsr(files, v, n)
+        m = dfs(files, v, n)
         if m > total: total = m
         if m == -1:
             total = -1
@@ -69,4 +55,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

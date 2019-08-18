@@ -1,5 +1,5 @@
 import sys, glob, pytest
-import uri2545
+import add10
 
 input_partner = "in*"
 myoutput_file = "myout{}"
@@ -11,7 +11,7 @@ ins = sorted(glob.glob(input_partner))
 for i in range(len(ins)):
     sys.stdin = open(ins[i])
     sys.stdout = open(myoutput_file.format(i + 1), "w")
-    uri2545.main()
+    add10.main()
 
 sys.stdin = sys.__stdin__
 sys.stdout = sys.__stdout__
