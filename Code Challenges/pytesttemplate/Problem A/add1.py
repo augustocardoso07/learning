@@ -26,7 +26,7 @@ def test_all(capsys):
         main()
         out, err = capsys.readouterr()
         expected = open(pathout).read()
-        assert out == expected
+        assert expected == out
         with capsys.disabled():
             print("Teste {} ok!".format(i + 1))
 

@@ -1,6 +1,3 @@
-import sys
-input = sys.stdin.readline
-
 from queue import PriorityQueue
 
 
@@ -11,13 +8,13 @@ def somentepares(cidades, c):
         for custo1, vizinho in cidades[cidade]:
             for custo2, final in cidades[vizinho]:
                 nova[cidade].append((custo1 + custo2, final))
-                nova[final].append((custo1 + custo2, cidade))
     return nova
 
 
 def dijkstra(cidades, c):
     visitados = [False] * c
     custos = [float("inf")] * c
+    custos[0] = 0
 
     pq = PriorityQueue()
 
@@ -46,9 +43,9 @@ def main():
         cidades[v].append((g + 1, u))
         cidades[u].append((g + 1, v))
 
-    ncidades = somentepares(cidades, c)
+    cidades = somentepares(cidades, c)
 
-    print(dijkstra(ncidades, c))
+    print(dijkstra(cidades, c))
 
 
 if __name__ == '__main__':
