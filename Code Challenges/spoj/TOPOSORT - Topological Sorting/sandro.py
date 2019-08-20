@@ -1,4 +1,6 @@
 from queue import PriorityQueue
+from sys import stdin
+input = stdin.readline
 
 
 def solve(graph, in_degrees, n):
@@ -8,20 +10,18 @@ def solve(graph, in_degrees, n):
         if in_degrees[v] == 0:
             pq.put(v)
 
-    visited = [False] * n
     total = 0
     result = []
     while not pq.empty():
         v = pq.get()
-        visited[v] = True
+
         total += 1
         result.append(v + 1)
 
         for u in graph[v]:
-            if not visited[u]:
-                in_degrees[u]-= 1
-                if in_degrees[u] == 0:
-                    pq.put(u)
+            in_degrees[u]-= 1
+            if in_degrees[u] == 0:
+                pq.put(u)
 
     return result if total == n else None
 
@@ -43,6 +43,7 @@ def main():
         print(*result)
     else:
         print("Sandro fails.")
+
 
 if __name__ == '__main__':
     main()

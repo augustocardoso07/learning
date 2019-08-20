@@ -1,5 +1,6 @@
 from queue import PriorityQueue
-
+from sys import stdin
+input = stdin.readline
 
 def solve(graph, in_degrees, n):
     pq = PriorityQueue()
@@ -40,6 +41,7 @@ def main():
         print(*result, sep="\n")
     else:
         print("*")
+
 
 if __name__ == '__main__':
     main()
