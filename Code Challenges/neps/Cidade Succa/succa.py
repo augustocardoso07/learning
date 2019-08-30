@@ -40,5 +40,5 @@ def main():
     result = dijkstra(cidades, n, cidade_succa, cidade_noic)
     print(result)
 
-
-main()
+if __name__ == '__main__':
+    main()
