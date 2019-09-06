@@ -2,8 +2,7 @@ def solve(inicio, k, l):
     while len(l) != 1:
         indice_do_removido = (inicio + k) % len(l)
         l.pop(indice_do_removido)
-        indice_do_anterior = indice_do_removido - 1
-        inicio = indice_do_anterior
+        inicio = indice_do_removido - 1
     return l[0]
 
 
