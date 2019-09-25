@@ -17,11 +17,8 @@ def main():
         except EOFError:
             break
         if inpu == "beep":
-            try:
-                prioridade, chegada, id = fila.get()
-                print(id)
-            except:
-                continue
+            prioridade, chegada, id = fila.get()
+            print(id)
         else:
             id, prioridade = inpu.split()
             prioridade = pri[prioridade]
