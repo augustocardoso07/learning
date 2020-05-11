@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  background: #171717;
+}
+.container {
+  padding: 5em;
+  color: white;
+  background: #1c1c1c;
+}
+
+span {
+  position: relative;
+}
+
+span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: red;
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/

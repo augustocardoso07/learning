@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./redlight.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  padding: 2em;
+}
+
+p {
+  padding-left: 4em;
+  font-size: 1em;
+  border-left: 2px solid white;
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/

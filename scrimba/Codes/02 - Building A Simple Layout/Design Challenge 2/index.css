@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito";
+  height: 100vh;
+}
+.container {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+span {
+  position: relative;
+}
+
+.card {
+  max-width: 300px;
+  display: inline-block;
+  margin: 2em;
+  padding: 1em;
+  position: relative;
+  border: 1px solid rgba(65, 105, 225, 0.09);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 36%;
+  background: rgba(56, 65, 92, 0.03);
+  z-index: -1;
+}
+
+.card p {
+  font-size: 0.7em;
+  padding-left: 3em;
+  border-left: 2px solid royalblue;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: royalblue;
+}
+
+span {
+  font-size: 0.6em;
+  background: #777777;
+  color: white;
+  padding: 0.3em 0.5em;
+  border-radius: 10px;
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/
